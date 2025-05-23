@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "68305ce4e8c4bacdc59cb18c"
+  },
+  "name": "Tristan Jahari",
+  "age": 18,
+  "birthday": {
+    "$date": "2007-04-30T00:00:00.000Z"
+  }
+}]
