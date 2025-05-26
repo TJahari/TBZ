@@ -1,0 +1,6 @@
+# A) Konzeptionelles Datenmodell (30%)
+## Ein Bild des [Dockerfile](src/Dockerfile).
+![grafik](https://github.com/user-attachments/assets/fa23837a-0653-4484-9014-63ac5d5613ca)
+
+# B) Logisches Modell für MongoDB (60%)
+# C) Anwendung des Schemas in MongoDB (10%)
