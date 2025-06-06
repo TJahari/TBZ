@@ -1,0 +1,695 @@
+{
+	"tables": {
+		"10130425-0765-4df0-a826-d17d834e6eb5": {
+			"id": "10130425-0765-4df0-a826-d17d834e6eb5",
+			"visible": true,
+			"name": "Auto",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "012e8b78-8aa5-4646-86dc-54ed65f7091a",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "0854a1e2-042b-4047-8396-4117f515b9e7",
+					"name": "Marke",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "44094948-fa02-4bb6-8209-260c189ebe9d",
+					"name": "Modell",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "303ab07b-f22c-4f4e-92c4-c6a1fea561cd",
+					"name": " Kennzeichen",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "558b7a65-f46e-48e0-b50e-de0a316aec01",
+					"name": "Standort",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"list": false,
+					"fk": true,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				}
+			],
+			"relations": [
+				"46d4e372-15cb-4f1d-8941-9640c376eda5",
+				"8be95875-ad04-4617-8ba9-b0d7d24aab58"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "f75c705e-44f8-40d7-a72b-67e866d3cb69",
+					"name": "Primary",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "d3bb167d-f97e-44e4-999e-2a988e8301bb",
+							"colid": "012e8b78-8aa5-4646-86dc-54ed65f7091a"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": "",
+			"size": "",
+			"max": "",
+			"validation": "",
+			"capped": false
+		},
+		"f2312e2d-dd35-48cb-9fca-13887720c257": {
+			"id": "f2312e2d-dd35-48cb-9fca-13887720c257",
+			"visible": true,
+			"name": "Mieter",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "e9b5b642-78e8-42c5-80c4-3127543eece8",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "68e99f2a-25ea-46e8-a34e-9039485b498c",
+					"name": "Name",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "765c7003-16af-4c68-aa40-d7963e1689b5",
+					"name": "Adresse",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "98c7e6ac-3fe2-43d2-9832-deada1f01eeb",
+					"name": "Fuehrerscheinnummer",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				}
+			],
+			"relations": [
+				"2c807794-ad83-4fb9-88c0-275892b1dce1"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "92b293bf-8f43-47c4-8f3d-8000f21d7791",
+					"name": "Primary",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "df6b90f7-835c-4841-af2e-13e62d6f26db",
+							"colid": "e9b5b642-78e8-42c5-80c4-3127543eece8"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": "",
+			"size": "",
+			"max": "",
+			"validation": "",
+			"capped": false
+		},
+		"6d04bfe7-18d3-4d1a-9bae-1bb8a59289fe": {
+			"id": "6d04bfe7-18d3-4d1a-9bae-1bb8a59289fe",
+			"visible": true,
+			"name": "Vertrag",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "2e28060f-bfaa-419a-bc2a-8adbf5aac806",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "94757487-ab80-4326-b37b-a438fd76cccb",
+					"name": "Startdatum",
+					"datatype": "date",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "a0be9633-b876-486e-a4f3-9e129dcb2cf0",
+					"name": "Enddatum",
+					"datatype": "date",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "21a5d4b1-7437-4e35-83ea-93eb1c1b7b7e",
+					"name": "Preis",
+					"datatype": "double",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "8e933c34-67b1-41aa-94c7-cf2af4d88410",
+					"name": "Auto",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"list": false,
+					"fk": true,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "d7c520d0-4e19-4ee9-96fd-2e6d6166e8bf",
+					"name": "Mieter",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"list": false,
+					"fk": true,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				}
+			],
+			"relations": [
+				"46d4e372-15cb-4f1d-8941-9640c376eda5",
+				"2c807794-ad83-4fb9-88c0-275892b1dce1"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "27965f4f-5111-4e64-9816-19c2f96433a6",
+					"name": "Primary",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "bb26e282-dd2d-49b9-918e-d0c91b0483b5",
+							"colid": "2e28060f-bfaa-419a-bc2a-8adbf5aac806"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": "",
+			"size": "",
+			"max": "",
+			"validation": "",
+			"capped": false
+		},
+		"9697e0a0-1700-4c9b-9859-2c20997b4e13": {
+			"id": "9697e0a0-1700-4c9b-9859-2c20997b4e13",
+			"visible": true,
+			"name": "Standort",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "f310341a-117b-43fe-90cc-5667bd981933",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "5c6473ae-d3c2-49e0-9da5-0bfa0dd2da50",
+					"name": "Name",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				},
+				{
+					"id": "278abf76-7e74-44cd-90f0-52888cdc7263",
+					"name": "Adresse",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
+				}
+			],
+			"relations": [
+				"8be95875-ad04-4617-8ba9-b0d7d24aab58"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "e97bf987-8576-41b0-9124-a822f359b700",
+					"name": "Primary",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "0c1f735c-2194-427c-88d7-05d1ecc83a3f",
+							"colid": "f310341a-117b-43fe-90cc-5667bd981933"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": "",
+			"size": "",
+			"max": "",
+			"validation": "",
+			"capped": false
+		}
+	},
+	"relations": {
+		"46d4e372-15cb-4f1d-8941-9640c376eda5": {
+			"id": "46d4e372-15cb-4f1d-8941-9640c376eda5",
+			"name": "Autos_Vertrag",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "f75c705e-44f8-40d7-a72b-67e866d3cb69",
+			"parent": "10130425-0765-4df0-a826-d17d834e6eb5",
+			"child": "6d04bfe7-18d3-4d1a-9bae-1bb8a59289fe",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "4ebea4f1-9672-4297-a11a-41f6bf53a8cb",
+					"parentcol": "012e8b78-8aa5-4646-86dc-54ed65f7091a",
+					"childcol": "8e933c34-67b1-41aa-94c7-cf2af4d88410"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent",
+			"linegraphics": "default"
+		},
+		"8be95875-ad04-4617-8ba9-b0d7d24aab58": {
+			"id": "8be95875-ad04-4617-8ba9-b0d7d24aab58",
+			"name": "Standort_Auto",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "e97bf987-8576-41b0-9124-a822f359b700",
+			"parent": "9697e0a0-1700-4c9b-9859-2c20997b4e13",
+			"child": "10130425-0765-4df0-a826-d17d834e6eb5",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "c2561c6f-1ad3-42fc-9d45-8475881bd303",
+					"parentcol": "f310341a-117b-43fe-90cc-5667bd981933",
+					"childcol": "558b7a65-f46e-48e0-b50e-de0a316aec01"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent",
+			"linegraphics": "default"
+		},
+		"2c807794-ad83-4fb9-88c0-275892b1dce1": {
+			"id": "2c807794-ad83-4fb9-88c0-275892b1dce1",
+			"name": "Mieter_Vertrag",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "92b293bf-8f43-47c4-8f3d-8000f21d7791",
+			"parent": "f2312e2d-dd35-48cb-9fca-13887720c257",
+			"child": "6d04bfe7-18d3-4d1a-9bae-1bb8a59289fe",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "82648202-55e1-4cd2-b109-4000c6892a18",
+					"parentcol": "e9b5b642-78e8-42c5-80c4-3127543eece8",
+					"childcol": "d7c520d0-4e19-4ee9-96fd-2e6d6166e8bf"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent",
+			"linegraphics": "default"
+		}
+	},
+	"notes": {},
+	"lines": {},
+	"model": {
+		"name": "AutoVermietung",
+		"id": "ee340b3c-38a7-4bdb-9a66-3f2c3bc0eb28",
+		"activeDiagram": "c7fd8773-ca30-4bdf-8c49-ad23907e528d",
+		"desc": "",
+		"path": "",
+		"type": "MONGODB",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": true,
+		"storedin": {
+			"major": 10,
+			"minor": 0,
+			"extra": 0
+		},
+		"laststoredin": {
+			"major": 10,
+			"minor": 0,
+			"extra": 0
+		},
+		"writeFileParam": false,
+		"authorName": "",
+		"companyDetails": "",
+		"companyUrl": "",
+		"def_coltopk": true,
+		"def_validationLevel": "na",
+		"def_validationAction": "na",
+		"def_collation": "",
+		"def_others": "",
+		"connectionVersion": ""
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"c7fd8773-ca30-4bdf-8c49-ad23907e528d": {
+			"name": "Main Diagram",
+			"description": "",
+			"id": "c7fd8773-ca30-4bdf-8c49-ad23907e528d",
+			"keysgraphics": true,
+			"linegraphics": "detailed",
+			"zoom": 1,
+			"background": "transparent",
+			"lineColor": "transparent",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"10130425-0765-4df0-a826-d17d834e6eb5": {
+					"referencedItemId": "10130425-0765-4df0-a826-d17d834e6eb5",
+					"x": 54,
+					"y": 314,
+					"gHeight": 117,
+					"gWidth": 212,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"f2312e2d-dd35-48cb-9fca-13887720c257": {
+					"referencedItemId": "f2312e2d-dd35-48cb-9fca-13887720c257",
+					"x": 632,
+					"y": 270,
+					"gHeight": 99,
+					"gWidth": 269,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"6d04bfe7-18d3-4d1a-9bae-1bb8a59289fe": {
+					"referencedItemId": "6d04bfe7-18d3-4d1a-9bae-1bb8a59289fe",
+					"x": 350,
+					"y": 357,
+					"gHeight": 135,
+					"gWidth": 198,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"9697e0a0-1700-4c9b-9859-2c20997b4e13": {
+					"referencedItemId": "9697e0a0-1700-4c9b-9859-2c20997b4e13",
+					"x": 63,
+					"y": 130,
+					"gHeight": 81,
+					"gWidth": 185,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				}
+			},
+			"scroll": {
+				"x": 0,
+				"y": 0
+			},
+			"type": "erd",
+			"showHorizontal": true,
+			"showDescriptions": true,
+			"showIndicators": true,
+			"showProgress": true,
+			"lineWidth": "2",
+			"boxSize": "0",
+			"boxSpacing": "2",
+			"boxAlign": "center",
+			"showIndicatorCaptions": true,
+			"showEstimatedSize": false,
+			"showSchemaContainer": true,
+			"showEmbeddedInParents": true,
+			"showCardinalityCaptions": true,
+			"showRelationshipNames": false,
+			"showLineCaptions": false,
+			"showColumns": true,
+			"showColumnDataTypes": true,
+			"showSampleData": false,
+			"showTableIndexes": true,
+			"showTableDescriptions": false,
+			"showRelations": true,
+			"backgroundImage": "na",
+			"descriptionsColor": "transparent",
+			"embeddedSpacing": "2",
+			"showMainIcon": true,
+			"showLabels": true,
+			"showCustomizations": false,
+			"showExportDimensions": false,
+			"showCompleted": true
+		}
+	},
+	"diagramsOrder": [],
+	"order": [],
+	"collapsedTreeItems": [],
+	"reverseStats": {}
+}
