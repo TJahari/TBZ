@@ -1,0 +1,29 @@
+{
+  "_id": {
+    "$oid": "685554e5ab8844d3f13ca38b"
+  },
+  "von": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "bis": {
+    "$date": "2024-08-03T00:00:00.000Z"
+  },
+  "auto": {
+    "marke": "Ferrari",
+    "modell": "812 Superfast",
+    "kennzeichen": "GE-999 111",
+    "standort": {
+      "$oid": "685554e5ab8844d3f13ca388"
+    }
+  },
+  "mieter": {
+    "id_": {
+      "$oid": "685554e5ab8844d3f13ca38e"
+    },
+    "name": "Luca Granprix",
+    "ausweisnr": "CH-987654321",
+    "adresse": "Rue du Turbo 9, 1205 Genève"
+  },
+  "preis": 9500,
+  "standortname": "Genève Supercar Rental"
+}
