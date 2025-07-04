@@ -1,29 +1,23 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Generated schema for Root",
-  "type": "object",
-  "properties": {
-    "_id": {
-      "type": "object",
-      "properties": {
-        "$oid": {
-          "type": "string"
-        }
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'name',
+      'adresse'
+    ],
+    properties: {
+      _id: {
+        bsonType: 'objectId'
       },
-      "required": [
-        "$oid"
-      ]
-    },
-    "name": {
-      "type": "string"
-    },
-    "adresse": {
-      "type": "string"
+      name: {
+        bsonType: 'string',
+        minLength: 2,
+        maxLength: 100
+      },
+      adresse: {
+        bsonType: 'string',
+        minLength: 10
+      }
     }
-  },
-  "required": [
-    "_id",
-    "name",
-    "adresse"
-  ]
+  }
 }
