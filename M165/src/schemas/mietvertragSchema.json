@@ -1,117 +1,43 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Generated schema for Root",
-  "type": "object",
-  "properties": {
-    "_id": {
-      "type": "object",
-      "properties": {
-        "$oid": {
-          "type": "string"
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'von',
+      'bis',
+      'auto',
+      'mieter',
+      'preis'
+    ],
+    properties: {
+      von: {
+        bsonType: 'date'
+      },
+      bis: {
+        bsonType: 'date'
+      },
+      auto: {
+        bsonType: 'object',
+        required: [
+          'marke',
+          'modell'
+        ],
+        properties: {
+          standort: {
+            bsonType: 'objectId'
+          }
         }
       },
-      "required": [
-        "$oid"
-      ]
-    },
-    "von": {
-      "type": "object",
-      "properties": {
-        "$date": {
-          "type": "string"
+      mieter: {
+        bsonType: 'object',
+        required: [
+          'name'
+        ],
+        properties: {
+          id_: {
+            bsonType: 'objectId'
+          }
         }
-      },
-      "required": [
-        "$date"
-      ]
-    },
-    "bis": {
-      "type": "object",
-      "properties": {
-        "$date": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "$date"
-      ]
-    },
-    "auto": {
-      "type": "object",
-      "properties": {
-        "marke": {
-          "type": "string"
-        },
-        "modell": {
-          "type": "string"
-        },
-        "kennzeichen": {
-          "type": "string"
-        },
-        "standort": {
-          "type": "object",
-          "properties": {
-            "$oid": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "$oid"
-          ]
-        }
-      },
-      "required": [
-        "marke",
-        "modell",
-        "kennzeichen",
-        "standort"
-      ]
-    },
-    "mieter": {
-      "type": "object",
-      "properties": {
-        "id_": {
-          "type": "object",
-          "properties": {
-            "$oid": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "$oid"
-          ]
-        },
-        "name": {
-          "type": "string"
-        },
-        "ausweisnr": {
-          "type": "string"
-        },
-        "adresse": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "id_",
-        "name",
-        "ausweisnr",
-        "adresse"
-      ]
-    },
-    "preis": {
-      "type": "number"
-    },
-    "standortname": {
-      "type": "string"
+      }
     }
-  },
-  "required": [
-    "_id",
-    "von",
-    "bis",
-    "auto",
-    "mieter",
-    "preis",
-    "standortname"
-  ]
+  }
 }
